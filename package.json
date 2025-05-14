@@ -1,0 +1,28 @@
+{
+  "name": "lafleur-devops---solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fred-ayrault/lafleur-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fred-ayrault/lafleur-devops/issues"
+  },
+  "homepage": "https://github.com/fred-ayrault/lafleur-devops#readme",
+  "devDependencies": {
+    "csslint": "^1.0.5",
+    "htmlhint": "^1.1.4"
+  },
+  "scripts": {
+    "lint:html": "htmlhint **/*.html"
+  }
+
+}
