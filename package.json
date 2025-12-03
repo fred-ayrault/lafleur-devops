@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
+
   "scripts": {
-  "lint:html": "htmlhint **/*.html"
+    "lint:html": "htmlhint '**/*.html'"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fred-ayrault/lafleur-devops.git"
