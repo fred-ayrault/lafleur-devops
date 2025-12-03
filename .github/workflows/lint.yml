@@ -15,3 +15,8 @@ jobs:
       - name: Grant execution permissions
         run: chmod +x ./node_modules/.bin/htmlhint
       - run: npm run lint:html
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarqube-scan-action@v5.0.0
+        env:
+          SONAR_TOKEN: ${{ secrets.TOKEN_LAFLEUR_DEVOPS }}
